@@ -18,8 +18,8 @@ cd superset
 git checkout $SUPERSET_CHECKOUT
 
 # Patch dockerfile
-cat ../.staroid/Dockerfile_staroid >> Dockerfile
-cp ../.staroid/requirements-staroid.txt ./
+cat ../Dockerfile_staroid >> Dockerfile
+cp ../requirements-staroid.txt ./
 
 docker build -t $IMAGE -f Dockerfile .
 docker images
