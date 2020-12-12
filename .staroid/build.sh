@@ -8,7 +8,8 @@ set -e
 pwd
 
 SUPERSET_REPO=https://github.com/apache/superset.git
-SUPERSET_CHECKOUT=master
+# SUPERSET_CHECKOUT=master
+SUPERSET_CHECKOUT="0.38.0"
 
 # Checkout source
 if [ ! -d "superset" ]; then
