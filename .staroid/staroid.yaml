@@ -1,4 +1,6 @@
 apiVersion: beta/v1
+starRank:
+  rate: 1.5
 build:
   skaffold:
     file: .staroid/skaffold.yaml
