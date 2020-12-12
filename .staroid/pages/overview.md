@@ -1,5 +1,7 @@
 :::: section column
 ::: col 60%
+6Biz Academy
+
 Apache Superset is a modern data exploration and visualization platform.
 
 Superset is fast, lightweight, intuitive, and loaded with options that make it easy for users of all skill sets to explore and visualize their data, from simple line charts to highly detailed geospatial charts.
